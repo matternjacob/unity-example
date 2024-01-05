@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     private float horizontal;
     public float jumpingPower = 12f;
+    bool isJumping;
+    public GameObject thePlayer;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -17,10 +19,18 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        if (Input.GetKeyDown("Space"))
+        {
+            thePlayer.GetComponent<Animator>().Play("Bob Jump-Sheet_0");
+        }
     }
 
     void Update()
     {
+
+        
+
         //horizontal Movement
         horizontal = Input.GetAxisRaw("Horizontal");
 
@@ -28,9 +38,19 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            
         }
         Flip();
     }
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Ground"))
+        {
+         
+        }
+    }
+
 
     private void FixedUpdate()
     {

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - DoubleJump
   - doublejump
+  - Ground
   layers:
   - Default
   - TransparentFX

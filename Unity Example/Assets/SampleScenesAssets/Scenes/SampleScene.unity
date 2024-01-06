@@ -333,7 +333,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.016957194}
+  m_Offset: {x: 0, y: -0.08}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -387,7 +387,7 @@ Animator:
   m_GameObject: {fileID: 1573086760}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3234367c2b544714f9fb04a7c3bd233c, type: 2}
+  m_Controller: {fileID: 9100000, guid: 953ccd5c6dd99274faeee8006efc9f2d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -409,11 +409,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1717905495916087344, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_Size.y
-      value: 0.89
+      value: 0.86
       objectReference: {fileID: 0}
     - target: {fileID: 1717905495916087344, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_Offset.y
-      value: -0.015
+      value: -0.04
       objectReference: {fileID: 0}
     - target: {fileID: 5079167812033126763, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: speed
@@ -427,17 +427,25 @@ PrefabInstance:
       propertyPath: isJumping
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5079167812033126763, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
+      propertyPath: jumpingPower
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586665978626495734, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
+      propertyPath: m_GravityScale
+      value: 3.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6794920167279282464, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7502610172161826078, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.87
+      value: -4.76
       objectReference: {fileID: 0}
     - target: {fileID: 7502610172161826078, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.84
+      value: 0.93
       objectReference: {fileID: 0}
     - target: {fileID: 7502610172161826078, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_LocalPosition.z

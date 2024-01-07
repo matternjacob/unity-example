@@ -431,6 +431,10 @@ PrefabInstance:
       propertyPath: jumpingPower
       value: 18
       objectReference: {fileID: 0}
+    - target: {fileID: 5079167812033126763, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
+      propertyPath: groundCheckCollider
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6586665978626495734, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_GravityScale
       value: 3.5
@@ -441,11 +445,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7502610172161826078, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.76
+      value: -2.77
       objectReference: {fileID: 0}
     - target: {fileID: 7502610172161826078, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.93
+      value: 1.08
       objectReference: {fileID: 0}
     - target: {fileID: 7502610172161826078, guid: 3b6de86e012f01f4bbabcf511ae1828f, type: 3}
       propertyPath: m_LocalPosition.z

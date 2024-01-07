@@ -1,34 +1,22 @@
 fileFormatVersion: 2
-guid: 510a0c56f215e0248a60b5bfff2ee731
+guid: 301d896836f665542ba6ab2778aa6ab5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8561483135983381178
-    second: Bob Jump-Sheet_0
+      213: 6324595161105172230
+    second: Jumpsprite1_0
   - first:
-      213: 3216741665265961646
-    second: Bob Jump-Sheet_1
+      213: 3055904943085089281
+    second: Jumpsprite1_1
   - first:
-      213: 3627069858082930818
-    second: Bob Jump-Sheet_2
+      213: -2183703011280243524
+    second: Jumpsprite1_2
   - first:
-      213: 8676741130354061912
-    second: Bob Jump-Sheet_3
+      213: -5153638264983688011
+    second: Jumpsprite1_3
   - first:
-      213: 8192241967174995520
-    second: Bob Jump-Sheet_4
-  - first:
-      213: 1752652531955913785
-    second: Bob Jump-Sheet_5
-  - first:
-      213: 862861927544745726
-    second: Bob Jump-Sheet_6
-  - first:
-      213: -1927699832524437377
-    second: Bob Jump-Sheet_7
-  - first:
-      213: -1919158917249169936
-    second: Bob Jump-Sheet_8
+      213: -4124613421260383780
+    second: Jumpsprite1_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -99,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,7 +125,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bob Jump-Sheet_0
+      name: Jumpsprite1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60704d53ac975c750800000000000000
+      internalID: 6324595161105172230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumpsprite1_1
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10272f7da51c86a20800000000000000
+      internalID: 3055904943085089281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumpsprite1_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 192
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4b0b55eade1b1e0800000000000000
+      internalID: -2183703011280243524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jumpsprite1_3
       rect:
         serializedVersion: 2
         x: 0
@@ -149,16 +200,16 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 28b4387a64016cc4d9925a2dc5c1e723
-      internalID: -1616475615
+      spriteID: 5bc69ca9d499a78b0800000000000000
+      internalID: -5153638264983688011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bob Jump-Sheet_1
+      name: Jumpsprite1_4
       rect:
         serializedVersion: 2
         x: 192
@@ -170,157 +221,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 2823a525c0a36cf47a9a28159b6e4614
-      internalID: -386745636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bob Jump-Sheet_2
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 83b6a9028628f9342bdd797c913487a1
-      internalID: -2138429629
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bob Jump-Sheet_3
-      rect:
-        serializedVersion: 2
-        x: 576
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 69f1a36fa40d1bf4fb49665f8a172d22
-      internalID: 1670657047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bob Jump-Sheet_4
-      rect:
-        serializedVersion: 2
-        x: 768
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 30f1af60e0bd3244bae3294dc9856da3
-      internalID: 1074891322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bob Jump-Sheet_5
-      rect:
-        serializedVersion: 2
-        x: 960
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ace627933b82cf4184b3ebec0fc75c5
-      internalID: -327761836
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bob Jump-Sheet_6
-      rect:
-        serializedVersion: 2
-        x: 1152
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 28162bd578b6bdb4fb82a4395782c69c
-      internalID: 1110703611
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bob Jump-Sheet_7
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ba4dcc183a132740a117a5a2f6377f7
-      internalID: 1150213431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bob Jump-Sheet_8
-      rect:
-        serializedVersion: 2
-        x: 1536
-        y: 0
-        width: 192
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 920cba095acf47b4d85f39b9944ea359
-      internalID: -1409001456
+      spriteID: cd957fd42fd62c6c0800000000000000
+      internalID: -4124613421260383780
       vertices: []
       indices: 
       edges: []
@@ -328,7 +232,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: fcbc8214b38473d4f934f4abfe2666f7
+    spriteID: b47e689d6fc5d5041990a07b02fddfea
     internalID: 0
     vertices: []
     indices: 
@@ -336,15 +240,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bob Jump-Sheet_0: -1616475615
-      Bob Jump-Sheet_1: -386745636
-      Bob Jump-Sheet_2: -2138429629
-      Bob Jump-Sheet_3: 1670657047
-      Bob Jump-Sheet_4: 1074891322
-      Bob Jump-Sheet_5: -327761836
-      Bob Jump-Sheet_6: 1110703611
-      Bob Jump-Sheet_7: 1150213431
-      Bob Jump-Sheet_8: -1409001456
+      Jumpsprite1_0: 6324595161105172230
+      Jumpsprite1_1: 3055904943085089281
+      Jumpsprite1_2: -2183703011280243524
+      Jumpsprite1_3: -5153638264983688011
+      Jumpsprite1_4: -4124613421260383780
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

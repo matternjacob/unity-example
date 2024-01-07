@@ -9,7 +9,6 @@ using UnityEngine.UIElements;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float groundCheckRadius = 0.2f;
     public float speed = 5f;
     private bool isFacingRight = true;     
     private float horizontal;
@@ -20,25 +19,23 @@ public class PlayerMovement : MonoBehaviour
 
     [SerializeField] Rigidbody2D rb;
     [SerializeField] LayerMask groundLayer;
-    [SerializeField] CharacterController controller;
+
     [SerializeField] Vector2 moveDirection;
     [SerializeField] Transform groundCheckCollider;
 
 
-    void Start() //Rigid body pull
+    void Start() //Rigid body and animator pull
     {
         rb = GetComponent<Rigidbody2D>();
-        controller = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
-
     }
 
 
-    void Update() //Horizontal and Jumping Functions
+    void Update() //Horizontal movement
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
-
         rb.velocity = new Vector3(horizontal * speed, rb.velocity.y, 0);
+
+        horizontal = Input.GetAxisRaw("Horizontal");
 
         animator.SetFloat("Speed", Mathf.Abs(horizontal));
 
@@ -46,61 +43,36 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") && isGrounded)
         {
             rb.velocity = Vector2.up * jumpingPower;
-        }
-       
-
-        if (Input.GetButtonDown("Jump"))
-        {
             animator.SetBool("isJumping", true);
-            isJumping = true;   
-        }
-        else if (Input.GetButtonUp("Jump"))
-        {
-            isJumping = false;
         }
 
-
-        //Checks if player is in the air
-        if (!isGrounded)
-        {
-            isJumping = false;
-        }
 
         //set yVelocity in animator
         animator.SetFloat("yVelocity", rb.velocity.y);
-
-
-
-
         Flip();
 
     }
-    private void OnCollisionEnter2D(Collision2D other)
+
+    //check if Grounded
+    public void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+            animator.SetBool("isJumping", false);
+            animator.SetFloat("yVelocity", 0);
         }
 
     }
 
-    private void OnCollisionExit2D(Collision2D other)
+    public void OnCollisionExit2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+            animator.SetBool("isJumping", true);
         }
 
-    }
-    void groundCheck()
-    {
-
-        isGrounded = false;
-        Collider2D[] colliders = Physics2D.OverlapCircleAll(groundCheckCollider.position, groundCheckRadius, groundLayer);
-        if (colliders.Length > 0)
-            isGrounded = true;
-
-        animator.SetBool("isJumping", !isGrounded);
     }
 
     private void Flip() //player flip when facing in direction of movement

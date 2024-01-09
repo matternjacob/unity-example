@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     public bool isGrounded;
     public bool isJumping;
     public Animator animator;
+    public float maxVelocity;
 
     [SerializeField] Rigidbody2D rb;
     [SerializeField] LayerMask groundLayer;
@@ -53,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    //check if Grounded
+    //check if Grounded ------------
     public void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Ground"))
@@ -74,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
     }
-
+    //-----------------------------
     private void Flip() //player flip when facing in direction of movement
     {
 
@@ -89,6 +90,13 @@ public class PlayerMovement : MonoBehaviour
         
     }
 
-   
+    void FixedUpdate() //Sets Max Velocity
+    {
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, maxVelocity);
+    }
+
+
+
+
 }
 

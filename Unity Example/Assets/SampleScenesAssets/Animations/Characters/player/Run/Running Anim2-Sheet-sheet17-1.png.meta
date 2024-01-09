@@ -1,55 +1,46 @@
 fileFormatVersion: 2
-guid: 41a3ae54dc4378340a54c6e9577dad78
+guid: 1910202a013988342a47b044c5b0ef93
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3859937903510691135
-    second: Running Anim2-Sheet-sheet28_0
+      213: -4892050901096553735
+    second: Running Anim2-Sheet-sheet17-1_0
   - first:
-      213: -1334579679632969303
-    second: Running Anim2-Sheet-sheet28_1
+      213: 6183076987143148229
+    second: Running Anim2-Sheet-sheet17-1_1
   - first:
-      213: -4200606415554324186
-    second: Running Anim2-Sheet-sheet28_2
+      213: 8579843143579514675
+    second: Running Anim2-Sheet-sheet17-1_2
   - first:
-      213: -1026596635989026621
-    second: Running Anim2-Sheet-sheet28_3
+      213: 4227488521711021087
+    second: Running Anim2-Sheet-sheet17-1_3
   - first:
-      213: -5216416393774687998
-    second: Running Anim2-Sheet-sheet28_4
+      213: 8220394975029111999
+    second: Running Anim2-Sheet-sheet17-1_4
   - first:
-      213: -1984101915914194506
-    second: Running Anim2-Sheet-sheet28_5
+      213: 4691549223696559257
+    second: Running Anim2-Sheet-sheet17-1_5
   - first:
-      213: 7749658331638340367
-    second: Running Anim2-Sheet-sheet28_6
+      213: -8004643872709736715
+    second: Running Anim2-Sheet-sheet17-1_6
   - first:
-      213: 2516065078557998768
-    second: Running Anim2-Sheet-sheet28_7
+      213: 6020553637261056022
+    second: Running Anim2-Sheet-sheet17-1_7
   - first:
-      213: 6826519160021183996
-    second: Running Anim2-Sheet-sheet28_8
+      213: 3644198572601204529
+    second: Running Anim2-Sheet-sheet17-1_8
   - first:
-      213: -8399549505155169592
-    second: Running Anim2-Sheet-sheet28_9
+      213: -7518596848122628775
+    second: Running Anim2-Sheet-sheet17-1_9
   - first:
-      213: 4527428954813124109
-    second: Running Anim2-Sheet-sheet28_10
+      213: -5478655375026435764
+    second: Running Anim2-Sheet-sheet17-1_10
   - first:
-      213: 5017190126762561495
-    second: Running Anim2-Sheet-sheet28_11
+      213: 1705178748338559667
+    second: Running Anim2-Sheet-sheet17-1_11
   - first:
-      213: 442950807957164268
-    second: Running Anim2-Sheet-sheet28_12
-  - first:
-      213: 7888996392249556691
-    second: Running Anim2-Sheet-sheet28_13
-  - first:
-      213: -7909062226501115296
-    second: Running Anim2-Sheet-sheet28_14
-  - first:
-      213: -1697749491771972691
-    second: Running Anim2-Sheet-sheet28_15
+      213: 6169984638498173252
+    second: Running Anim2-Sheet-sheet17-1_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -158,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_0
+      name: Running Anim2-Sheet-sheet17-1_0
       rect:
         serializedVersion: 2
         x: 0
@@ -172,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c2ed267deebe6ac0800000000000000
-      internalID: -3859937903510691135
+      spriteID: 9f2a209ef91fb1cb0800000000000000
+      internalID: -4892050901096553735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_1
+      name: Running Anim2-Sheet-sheet17-1_1
       rect:
         serializedVersion: 2
         x: 198
@@ -193,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9a1b50f2ade9a7de0800000000000000
-      internalID: -1334579679632969303
+      spriteID: 5c25f8da2c3bec550800000000000000
+      internalID: 6183076987143148229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_2
+      name: Running Anim2-Sheet-sheet17-1_2
       rect:
         serializedVersion: 2
         x: 396
@@ -214,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62958a788b274b5c0800000000000000
-      internalID: -4200606415554324186
+      spriteID: 337b0a191e9b11770800000000000000
+      internalID: 8579843143579514675
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_3
+      name: Running Anim2-Sheet-sheet17-1_3
       rect:
         serializedVersion: 2
         x: 594
@@ -235,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c853487ccbc0c1f0800000000000000
-      internalID: -1026596635989026621
+      spriteID: f1c60ac896e0baa30800000000000000
+      internalID: 4227488521711021087
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_4
+      name: Running Anim2-Sheet-sheet17-1_4
       rect:
         serializedVersion: 2
         x: 0
@@ -256,14 +247,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 20919887de09b97b0800000000000000
-      internalID: -5216416393774687998
+      spriteID: fbc24002da5b41270800000000000000
+      internalID: 8220394975029111999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_5
+      name: Running Anim2-Sheet-sheet17-1_5
       rect:
         serializedVersion: 2
         x: 198
@@ -277,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b133c7d1dd0774e0800000000000000
-      internalID: -1984101915914194506
+      spriteID: 99c61bc792bbb1140800000000000000
+      internalID: 4691549223696559257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_6
+      name: Running Anim2-Sheet-sheet17-1_6
       rect:
         serializedVersion: 2
         x: 396
@@ -298,14 +289,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0b13f371315c8b60800000000000000
-      internalID: 7749658331638340367
+      spriteID: 5f601a5eecac9e090800000000000000
+      internalID: -8004643872709736715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_7
+      name: Running Anim2-Sheet-sheet17-1_7
       rect:
         serializedVersion: 2
         x: 594
@@ -319,14 +310,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0bef637bbdbdae220800000000000000
-      internalID: 2516065078557998768
+      spriteID: 618912482ad4d8350800000000000000
+      internalID: 6020553637261056022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_8
+      name: Running Anim2-Sheet-sheet17-1_8
       rect:
         serializedVersion: 2
         x: 0
@@ -340,14 +331,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cfde571f10bacbe50800000000000000
-      internalID: 6826519160021183996
+      spriteID: 13f51e24b4bc29230800000000000000
+      internalID: 3644198572601204529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_9
+      name: Running Anim2-Sheet-sheet17-1_9
       rect:
         serializedVersion: 2
         x: 198
@@ -361,14 +352,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c20bef4a3ece6b80800000000000000
-      internalID: -8399549505155169592
+      spriteID: 955774a700498a790800000000000000
+      internalID: -7518596848122628775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_10
+      name: Running Anim2-Sheet-sheet17-1_10
       rect:
         serializedVersion: 2
         x: 396
@@ -382,14 +373,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0e4475a5a8a4de30800000000000000
-      internalID: 4527428954813124109
+      spriteID: c49c3cca6f7e7f3b0800000000000000
+      internalID: -5478655375026435764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_11
+      name: Running Anim2-Sheet-sheet17-1_11
       rect:
         serializedVersion: 2
         x: 594
@@ -403,14 +394,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7df874c86d3a0a540800000000000000
-      internalID: 5017190126762561495
+      spriteID: 3bad34589030aa710800000000000000
+      internalID: 1705178748338559667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_12
+      name: Running Anim2-Sheet-sheet17-1_12
       rect:
         serializedVersion: 2
         x: 0
@@ -424,71 +415,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce05249b96da52600800000000000000
-      internalID: 442950807957164268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_13
-      rect:
-        serializedVersion: 2
-        x: 198
-        y: 0
-        width: 198
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3de7f5acb685b7d60800000000000000
-      internalID: 7888996392249556691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_14
-      rect:
-        serializedVersion: 2
-        x: 396
-        y: 0
-        width: 198
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 062e0fa1fcd5d3290800000000000000
-      internalID: -7909062226501115296
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Running Anim2-Sheet-sheet28_15
-      rect:
-        serializedVersion: 2
-        x: 594
-        y: 0
-        width: 198
-        height: 192
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: da3e45115d16078e0800000000000000
-      internalID: -1697749491771972691
+      spriteID: 441fc47b65030a550800000000000000
+      internalID: 6169984638498173252
       vertices: []
       indices: 
       edges: []
@@ -496,7 +424,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 2c2f909afa5e4214bb2bca2758295b0c
+    spriteID: 5ff2c7aeef173f74db25480d5eaec31f
     internalID: 0
     vertices: []
     indices: 
@@ -504,22 +432,19 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Running Anim2-Sheet-sheet28_0: -3859937903510691135
-      Running Anim2-Sheet-sheet28_1: -1334579679632969303
-      Running Anim2-Sheet-sheet28_10: 4527428954813124109
-      Running Anim2-Sheet-sheet28_11: 5017190126762561495
-      Running Anim2-Sheet-sheet28_12: 442950807957164268
-      Running Anim2-Sheet-sheet28_13: 7888996392249556691
-      Running Anim2-Sheet-sheet28_14: -7909062226501115296
-      Running Anim2-Sheet-sheet28_15: -1697749491771972691
-      Running Anim2-Sheet-sheet28_2: -4200606415554324186
-      Running Anim2-Sheet-sheet28_3: -1026596635989026621
-      Running Anim2-Sheet-sheet28_4: -5216416393774687998
-      Running Anim2-Sheet-sheet28_5: -1984101915914194506
-      Running Anim2-Sheet-sheet28_6: 7749658331638340367
-      Running Anim2-Sheet-sheet28_7: 2516065078557998768
-      Running Anim2-Sheet-sheet28_8: 6826519160021183996
-      Running Anim2-Sheet-sheet28_9: -8399549505155169592
+      Running Anim2-Sheet-sheet17-1_0: -4892050901096553735
+      Running Anim2-Sheet-sheet17-1_1: 6183076987143148229
+      Running Anim2-Sheet-sheet17-1_10: -5478655375026435764
+      Running Anim2-Sheet-sheet17-1_11: 1705178748338559667
+      Running Anim2-Sheet-sheet17-1_12: 6169984638498173252
+      Running Anim2-Sheet-sheet17-1_2: 8579843143579514675
+      Running Anim2-Sheet-sheet17-1_3: 4227488521711021087
+      Running Anim2-Sheet-sheet17-1_4: 8220394975029111999
+      Running Anim2-Sheet-sheet17-1_5: 4691549223696559257
+      Running Anim2-Sheet-sheet17-1_6: -8004643872709736715
+      Running Anim2-Sheet-sheet17-1_7: 6020553637261056022
+      Running Anim2-Sheet-sheet17-1_8: 3644198572601204529
+      Running Anim2-Sheet-sheet17-1_9: -7518596848122628775
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
